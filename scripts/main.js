@@ -13,8 +13,8 @@ let botao = document.querySelector("button");
 let mheader = document.querySelector("h1");
 
 function setUserName() {
-    const myName = prompt("Please enter your name.");
-    if (!myName) {
+    const nomeguardado = prompt("DÊ-ME SEU NOME.");
+    if (!nomeguardado) {
       setUserName();
     } else {
       localStorage.setItem("name", myName);
