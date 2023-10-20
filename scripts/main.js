@@ -17,7 +17,7 @@ function setUserName() {
     if (!nomeguardado) {
       setUserName();
     } else {
-      localStorage.setItem("name", myName);
+      localStorage.setItem("name", nomeguardado);
       mheader.textContent = `ME DÁ UM PEDAÇO, ${myName}`;
     }
 }
